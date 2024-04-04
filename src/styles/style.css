@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.profile {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.portrait {
+  border: 2px black solid;
+  background-color: lightgray;
+  width: 80%;
+  height: 500px;
+}
+
+.about-me {
+  border: 2px black solid;
+  padding: 1rem;
+  width: 80%;
+  text-align: justify;
+}
+
+.about-me > h1 {
+  text-align: center;
+}
+
+.projects {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  width: 80%;
+}
+
+.card {
+  border: 2px black solid;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  width: 100%;
+  height: 75%;
+  background-color: lightgray;
+}
+
+.project-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.project-desc > .header {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icons > div {
+  border: 2px black solid;
+  width: 40px;
+  height: 40px;
+}
+
+.header > .icons {
+  margin-left: auto;
+}
+
+.project-desc > .description {
+  text-align: justify;
+}
+
+footer {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contact-container {
+  text-align: justify;
+}
