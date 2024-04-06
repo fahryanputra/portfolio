@@ -22,6 +22,7 @@ p {
 .profile {
   background-color: lightgreen;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
@@ -31,21 +32,24 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  width: 100%;
+  width: 85%;
 }
 
 .portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px black solid;
   background-color: lightgray;
-  width: 85%;
-  height: 500px;
+  min-width: 300px;
+  min-height: 450px;
 }
 
 .about-me {
   border: 2px black solid;
   padding: 1rem;
-  width: 85%;
   text-align: justify;
 }
 
@@ -58,13 +62,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 1rem;
 }
 
 .card-container {
   display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  gap: 2rem;
   width: 85%;
 }
 
@@ -121,4 +126,27 @@ footer {
 .contact-container {
   text-align: justify;
   width: 85%;
+}
+
+@media (max-width: 280px) {
+  .portrait {
+    min-width: 200px;
+    min-height: 350px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 725px) {
+  .profile-container {
+    flex-direction: row;
+  }
+
+  .about-me {
+    max-height: 450px;
+  }
 }
