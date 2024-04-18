@@ -1,0 +1,46 @@
+[
+  {
+    "imgLink": "",
+    "imgAlt": "",
+    "projectName": "Battleship",
+    "projectDesc": "Battleship is a strategic two-player board game where opponents secretly position their fleet of ships on a grid. Players take turns calling out coordinates to target and sink each other's ships. The goal is to be the first to destroy the opponent's entire fleet.",
+    "github": "https://github.com/fahryanputra/battleship-game",
+    "demo": "https://fahryanputra.github.io/battleship-game/"
+  },
+
+  {
+    "imgLink": "",
+    "imgAlt": "",
+    "projectName": "Weather App",
+    "projectDesc": "This weather app has a simple and intuitive interface that let you get updates on temperature, humidity, wind speed and more on the current time and also 7 days daily forecast so you can plan your days ahead. Never get caught off guard by the weather again.",
+    "github": "https://github.com/fahryanputra/yet-another-weather-app",
+    "demo": "https://fahryanputra.github.io/yet-another-weather-app/"
+  },
+
+  {
+    "imgLink": "",
+    "imgAlt": "",
+    "projectName": "Todo-list App",
+    "projectDesc": "This Simple Todo List App is a straightforward and user-friendly application designed to help users organize their tasks efficiently. The project features a clean and intuitive user interface, allowing users to easily add, edit, and delete tasks. Each task can be assigned a priority level or due date, enabling users to prioritize and manage their workload effectively.",
+    "github": "https://github.com/fahryanputra/todo-list-app",
+    "demo": "https://fahryanputra.github.io/todo-list-app/"
+  },
+
+  {
+    "imgLink": "",
+    "imgAlt": "",
+    "projectName": "Tic Tac Toe",
+    "projectDesc": "Enjoy a classic game of Tic Tac Toe right in your browser! Challenge a friend or test your skills against the computer. Simply click to place your X or O strategically on the grid, aiming to line up three in a row horizontally, vertically, or diagonally to claim victory. It's a timeless game of strategy and fun for all ages!",
+    "github": "https://github.com/fahryanputra/tic-tac-toe",
+    "demo": "https://fahryanputra.github.io/tic-tac-toe/"
+  },
+
+  {
+    "imgLink": "",
+    "imgAlt": "",
+    "projectName": "Book Collection",
+    "projectDesc": "This is a simple Book collection and tracker to help you keep track of your owned book.",
+    "github": "https://github.com/fahryanputra/book-collection",
+    "demo": "https://fahryanputra.github.io/book-collection/"
+  }
+]
