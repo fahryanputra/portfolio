@@ -1,5 +1,9 @@
 import projects from "../resources/projects.json";
 
+function openLink(url) {
+  window.open(url, "_blank");
+}
+
 function createCardDescription(project) {
   const descContainer = document.createElement("div");
   descContainer.classList.add("project-desc");
@@ -15,9 +19,25 @@ function createCardDescription(project) {
 
   const githubIcon = document.createElement("div");
   githubIcon.classList.add("github-icon");
+  githubIcon.addEventListener("click", () => {
+    openLink(project.github);
+  });
+
+  const githubImg = document.createElement("img");
+  githubImg.src = "./assets/github-icon.png";
+
+  githubIcon.appendChild(githubImg);
 
   const demoIcon = document.createElement("div");
   demoIcon.classList.add("demo-icon");
+  demoIcon.addEventListener("click", () => {
+    openLink(project.demo);
+  });
+
+  const demoImg = document.createElement("img");
+  demoImg.src = "./assets/demo-icon.png";
+
+  demoIcon.appendChild(demoImg);
 
   iconsContainer.appendChild(githubIcon);
   iconsContainer.appendChild(demoIcon);

@@ -12,7 +12,7 @@
     "imgLink": "./assets/weather.png",
     "imgAlt": "Weather Image",
     "projectName": "Weather App",
-    "projectDesc": "This weather app has a simple and intuitive interface that let you get updates on temperature, humidity, wind speed and more on the current time and also 7 days daily forecast so you can plan your days ahead. Never get caught off guard by the weather again.",
+    "projectDesc": "This weather app has a simple and intuitive interface that let you get updates on temperature, humidity, wind speed and more on the current time and also 7 days daily forecast so you can plan your days ahead.",
     "github": "https://github.com/fahryanputra/yet-another-weather-app",
     "demo": "https://fahryanputra.github.io/yet-another-weather-app/"
   },
