@@ -42,6 +42,12 @@ function createCard(project) {
   const imageContainer = document.createElement("div");
   imageContainer.classList.add("project-image");
 
+  const image = document.createElement("img");
+  image.src = project.imgLink;
+  image.alt = project.imgAlt;
+
+  imageContainer.appendChild(image);
+
   const descContainer = createCardDescription(project);
 
   const container = document.createElement("div");

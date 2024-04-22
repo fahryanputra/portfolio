@@ -1,6 +1,6 @@
 [
   {
-    "imgLink": "./src/assets/battleship.png",
+    "imgLink": "./assets/battleship.png",
     "imgAlt": "Battleship Image",
     "projectName": "Battleship",
     "projectDesc": "Battleship is a strategic two-player board game where opponents secretly position their fleet of ships on a grid. Players take turns calling out coordinates to target and sink each other's ships. The goal is to be the first to destroy the opponent's entire fleet.",
@@ -9,7 +9,7 @@
   },
 
   {
-    "imgLink": "./src/assets/weather.png",
+    "imgLink": "./assets/weather.png",
     "imgAlt": "Weather Image",
     "projectName": "Weather App",
     "projectDesc": "This weather app has a simple and intuitive interface that let you get updates on temperature, humidity, wind speed and more on the current time and also 7 days daily forecast so you can plan your days ahead. Never get caught off guard by the weather again.",
@@ -18,7 +18,7 @@
   },
 
   {
-    "imgLink": "./src/assets/todo.png",
+    "imgLink": "./assets/todo.png",
     "imgAlt": "Todo-list Image",
     "projectName": "Todo-list App",
     "projectDesc": "This Simple Todo List App is a straightforward and user-friendly application designed to help users organize their tasks efficiently. The project features a clean and intuitive user interface, allowing users to easily add, edit, and delete tasks.",
@@ -27,7 +27,7 @@
   },
 
   {
-    "imgLink": "./src/assets/tic-tac-toe.png",
+    "imgLink": "./assets/tic-tac-toe.png",
     "imgAlt": "Tic Tac Toe Image",
     "projectName": "Tic Tac Toe",
     "projectDesc": "Enjoy a classic game of Tic Tac Toe right in your browser! Simply click to place your X or O strategically on the grid, aiming to line up three in a row horizontally, vertically, or diagonally to claim victory. It's a timeless game of strategy and fun for all ages!",
@@ -36,7 +36,7 @@
   },
 
   {
-    "imgLink": "./src/assets/book.png",
+    "imgLink": "./assets/book.png",
     "imgAlt": "Book Image",
     "projectName": "Book Collection",
     "projectDesc": "Keep your book collection organized with this easy-to-use browser app. Input and track your books effortlessly. Never lose track of your reads again!",
