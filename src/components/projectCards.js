@@ -27,20 +27,22 @@ function createCardDescription(project) {
   githubImg.src = "./assets/github-icon.png";
 
   githubIcon.appendChild(githubImg);
-
-  const demoIcon = document.createElement("div");
-  demoIcon.classList.add("demo-icon");
-  demoIcon.addEventListener("click", () => {
-    openLink(project.demo);
-  });
-
-  const demoImg = document.createElement("img");
-  demoImg.src = "./assets/demo-icon.png";
-
-  demoIcon.appendChild(demoImg);
-
   iconsContainer.appendChild(githubIcon);
-  iconsContainer.appendChild(demoIcon);
+
+  if (project.demo != "") {
+    const demoIcon = document.createElement("div");
+    demoIcon.classList.add("demo-icon");
+    demoIcon.addEventListener("click", () => {
+      openLink(project.demo);
+    });
+
+    const demoImg = document.createElement("img");
+    demoImg.src = "./assets/demo-icon.png";
+
+    demoIcon.appendChild(demoImg);
+
+    iconsContainer.appendChild(demoIcon);
+  }
 
   headerContainer.appendChild(title);
   headerContainer.appendChild(iconsContainer);

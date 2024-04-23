@@ -42,5 +42,50 @@
     "projectDesc": "Keep your book collection organized with this easy-to-use browser app. Input and track your books effortlessly. Never lose track of your reads again!",
     "github": "https://github.com/fahryanputra/book-collection",
     "demo": "https://fahryanputra.github.io/book-collection/"
+  },
+
+  {
+    "imgLink": "./assets/substation-service.png",
+    "imgAlt": "Substation Image",
+    "projectName": "Substation Planning Services",
+    "projectDesc": "Electrical substations  planning REST API services using python and FastAPI",
+    "github": "https://github.com/fahryanputra/substation-planning-service",
+    "demo": ""
+  },
+
+  {
+    "imgLink": "./assets/restaurant-page.png",
+    "imgAlt": "Restaurant Image",
+    "projectName": "Restaurant Page",
+    "projectDesc": "This project is a minimalist yet inviting web design aimed at showcasing a restaurant's identity and enticing potential customers. The landing page features a clean and visually appealing layout, highlighting key elements such as the restaurant's logo, high-quality images of signature dishes, and a brief description of the cuisine.",
+    "github": "https://github.com/fahryanputra/restaurant-page",
+    "demo": "https://fahryanputra.github.io/restaurant-page/"
+  },
+
+  {
+    "imgLink": "./assets/admin-dashboard.png",
+    "imgAlt": "Dashboard Image",
+    "projectName": "Admin Dashboard",
+    "projectDesc": "This admin dashboard web page provides a centralized interface for managing and monitoring key aspects of a system or application. It presents this information in a visually organized manner, allowing administrators to easily navigate and perform tasks efficiently.",
+    "github": "https://github.com/fahryanputra/admin-dashboard",
+    "demo": "https://fahryanputra.github.io/admin-dashboard/"
+  },
+
+  {
+    "imgLink": "./assets/landing-page.png",
+    "imgAlt": "Landing Page Image",
+    "projectName": "Landing Page",
+    "projectDesc": " This landing page contains minimal navigation options and concise content aimed at capturing the visitor's attention and encouraging them to take the desired action. The design is clean and visually appealing, with clear messaging to guide visitors.",
+    "github": "https://github.com/fahryanputra/landing-page",
+    "demo": "https://fahryanputra.github.io/landing-page/"
+  },
+
+  {
+    "imgLink": "./assets/signup-form.png",
+    "imgAlt": "Signup Form Image",
+    "projectName": "Sign Up Form",
+    "projectDesc": " This Sign Up Form web page enables users to create accounts for accessing a service or platform. It includes input fields for information such as username, email address, password. The design is user-friendly with clear labels and instructions, as well as validation to ensure data accuracy.",
+    "github": "https://github.com/fahryanputra/signup-form",
+    "demo": "https://fahryanputra.github.io/signup-form/"
   }
 ]
