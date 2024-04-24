@@ -1,26 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
+a {
+  transition: all 300ms ease;
+}
+
 h1 {
-  font-family: "Merriweather", serif;
   font-weight: 700;
   font-style: normal;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  color: rgb(85, 85, 85);
   font-weight: 400;
   font-style: normal;
 }
 
 .profile {
-  background-color: lightgreen;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,16 +50,21 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px black solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 2rem;
   background-color: lightgray;
   min-width: 300px;
   min-height: 450px;
 }
 
 .about-me {
-  border: 2px black solid;
+  /* border: 0.1rem rgb(53, 53, 53) solid; */
+  border-radius: 2rem;
   padding: 1rem;
   text-align: justify;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .about-me > h1 {
@@ -58,7 +72,6 @@ p {
 }
 
 .projects {
-  background-color: lightcoral;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,10 +87,13 @@ p {
 }
 
 .card {
-  border: 2px black solid;
+  background-color: #fafafa;
   height: 400px;
   display: flex;
   flex-direction: column;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .project-image {
@@ -100,6 +116,12 @@ p {
 
 .project-desc > .header {
   display: flex;
+}
+
+.project-desc > .header > p {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
 
 .icons {
@@ -132,7 +154,6 @@ p {
 }
 
 footer {
-  background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
