@@ -17,11 +17,9 @@ function createCardDescription(project) {
   const iconsContainer = document.createElement("div");
   iconsContainer.classList.add("icons");
 
-  const githubIcon = document.createElement("div");
-  githubIcon.classList.add("github-icon");
-  githubIcon.addEventListener("click", () => {
-    openLink(project.github);
-  });
+  const githubIcon = document.createElement("a");
+  githubIcon.setAttribute("href", project.github);
+  githubIcon.setAttribute("target", "_blank");
 
   const githubImg = document.createElement("img");
   githubImg.src = "./assets/github-icon.png";
@@ -30,11 +28,9 @@ function createCardDescription(project) {
   iconsContainer.appendChild(githubIcon);
 
   if (project.demo != "") {
-    const demoIcon = document.createElement("div");
-    demoIcon.classList.add("demo-icon");
-    demoIcon.addEventListener("click", () => {
-      openLink(project.demo);
-    });
+    const demoIcon = document.createElement("a");
+    demoIcon.setAttribute("href", project.demo);
+    demoIcon.setAttribute("target", "_blank");
 
     const demoImg = document.createElement("img");
     demoImg.src = "./assets/demo-icon.png";
