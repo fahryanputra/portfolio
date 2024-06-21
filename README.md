@@ -1,11 +1,26 @@
-# javascript-webpack-template-repository
+# Personal Portfolio
 
-A template repository for web development using javascript and webpack.
+My personal portfolio page contains a curated collection of work samples, projects, and achievements that showcase skills and professional accomplishments in an organized manner.
 
-<a target="_blank" href="https://icons8.com/icon/106567/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+## Demo
 
-<a target="_blank" href="https://icons8.com/icon/88195/internet">www</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[Link to live demo](https://fahryanputra.github.io/portfolio/)
 
-<a target="_blank" href="https://icons8.com/icon/84937/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<!-- ![Demo Image](./assets/demo_image_1.png) -->
 
-<a target="_blank" href="https://icons8.com/icon/94652/email">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+## Built With
+
+- HTML
+- CSS
+- Javascript
+- Webpack
+
+## Authors
+
+- Github: [@fahryanputra](https://www.github.com/fahryanputra)
+- Email: [fahryandi.herlasmara@gmail.com](fahryandi.herlasmara@gmail.com)
+
+## Acknowledgements
+
+- [Google Font](https://fonts.google.com/)
+- [Icons8](https://icons8.com/)
