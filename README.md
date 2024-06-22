@@ -6,7 +6,7 @@ My personal portfolio page contains a curated collection of work samples, projec
 
 [Link to live demo](https://fahryanputra.github.io/portfolio/)
 
-<!-- ![Demo Image](./assets/demo_image_1.png) -->
+![Demo Image](./dist/assets/demo_image_1.png)
 
 ## Built With
 
