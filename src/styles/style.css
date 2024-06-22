@@ -75,7 +75,7 @@ p {
 
 .about-me {
   /* border: 0.1rem rgb(53, 53, 53) solid; */
-  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
   padding: 1rem;
   text-align: justify;
   box-shadow:
