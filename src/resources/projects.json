@@ -1,5 +1,32 @@
 [
   {
+    "imgLink": "./assets/substation-service.png",
+    "imgAlt": "Substation Image",
+    "projectName": "Substation Planning Services",
+    "projectDesc": "Electrical substations  planning REST API services using python and FastAPI",
+    "github": "https://github.com/fahryanputra/substation-planning-service",
+    "demo": ""
+  },
+
+  {
+    "imgLink": "./assets/pokememory.png",
+    "imgAlt": "PokeMemory",
+    "projectName": "PokeMemory",
+    "projectDesc": "In PokeMemory game the player are tasked to select one unique Pokemon each round. The game ends when the player selects the same Pokemon twice..",
+    "github": "https://github.com/fahryanputra/poke-memory-game",
+    "demo": "https://pokememory-theta.vercel.app/"
+  },
+
+  {
+    "imgLink": "./assets/cv-maker.png",
+    "imgAlt": "ATS CV Maker",
+    "projectName": "ATS CV Maker",
+    "projectDesc": "An ATS CV maker website helps job seekers create resumes optimized for Applicant Tracking Systems (ATS).",
+    "github": "https://github.com/fahryanputra/cv-maker",
+    "demo": "https://cv-maker-alpha-two.vercel.app/"
+  },
+
+  {
     "imgLink": "./assets/battleship.png",
     "imgAlt": "Battleship Image",
     "projectName": "Battleship",
@@ -42,15 +69,6 @@
     "projectDesc": "Keep your book collection organized with this easy-to-use browser app. Input and track your books effortlessly. Never lose track of your reads again!",
     "github": "https://github.com/fahryanputra/book-collection",
     "demo": "https://fahryanputra.github.io/book-collection/"
-  },
-
-  {
-    "imgLink": "./assets/substation-service.png",
-    "imgAlt": "Substation Image",
-    "projectName": "Substation Planning Services",
-    "projectDesc": "Electrical substations  planning REST API services using python and FastAPI",
-    "github": "https://github.com/fahryanputra/substation-planning-service",
-    "demo": ""
   },
 
   {

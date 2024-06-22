@@ -55,7 +55,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   width: 85%;
 }
 
@@ -63,11 +63,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-radius: 2rem;
-  background-color: lightgray;
-  min-width: 300px;
-  min-height: 450px;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.portrait img {
+  width: auto;
+  height: 100%;
 }
 
 .about-me {
